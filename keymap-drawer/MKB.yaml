@@ -99,10 +99,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
-  - ENTER
+  - {t: ▽, type: trans}
   - {t: LANG2, type: held}
   - LANG1
-  - ENTER
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,7 +119,7 @@ layers:
   - A
   - B
   Num:
-  - CAPS
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -158,10 +158,10 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - ENTER
-  - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
-  - ENTER
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
