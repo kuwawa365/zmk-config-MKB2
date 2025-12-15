@@ -49,9 +49,9 @@
                                    &kp A                                                                       &kp B
             >;
 
-            //sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN &inc_dec_kp PG_UP PG_DN>;
-            sensor-bindings = <&scroll_up_down>,
-                              <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN &inc_dec_kp PG_UP PG_DN>;
+            //sensor-bindings = <&scroll_up_down>,
+            //                  <&inc_dec_kp PG_UP PG_DN>;
         };
 
         function_layer {
@@ -65,9 +65,9 @@
                                  &kp A                                                      &kp B
             >;
 
-            //sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN &inc_dec_kp PG_UP PG_DN>;
-            sensor-bindings = <&scroll_up_down>,
-                              <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN &inc_dec_kp PG_UP PG_DN>;
+            //sensor-bindings = <&scroll_up_down>,
+            //                  <&inc_dec_kp PG_UP PG_DN>;
         };
 
         num_layer {
@@ -127,6 +127,7 @@
         };
     };
 };
+
 
 
 
