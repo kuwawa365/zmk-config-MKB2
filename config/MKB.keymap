@@ -16,7 +16,7 @@
 #define SCROLL 4
 #define BT 5
 
-# change mouse speed
+// change mouse speed
 #define U_MOUSE_MOVE_MAX 100
 #undef MOVE_UP
 #undef MOVE_DOWN
@@ -123,6 +123,7 @@
         };
     };
 };
+
 
 
 
