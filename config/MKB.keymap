@@ -36,7 +36,7 @@
                                    &kp A                                                                       &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP &inc_dec_kp PG_UP PG_DN>;
         };
 
         function_layer {
@@ -50,7 +50,7 @@
                                  &kp A                                                      &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp SCRL_LEFT SCRL_RIGHT &inc_dec_kp PG_UP PG_DN>;
         };
 
         num_layer {
@@ -110,3 +110,4 @@
         };
     };
 };
+
