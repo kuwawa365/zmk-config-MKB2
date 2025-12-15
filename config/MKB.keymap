@@ -16,6 +16,17 @@
 #define SCROLL 4
 #define BT 5
 
+# change mouse speed
+#define U_MOUSE_MOVE_MAX 100
+#undef MOVE_UP
+#undef MOVE_DOWN
+#undef MOVE_LEFT
+#undef MOVE_RIGHT
+#define MOVE_UP MOVE_VERT(-U_MOUSE_MOVE_MAX)
+#define MOVE_DOWN MOVE_VERT(U_MOUSE_MOVE_MAX)
+#define MOVE_LEFT MOVE_HOR(-U_MOUSE_MOVE_MAX)
+#define MOVE_RIGHT MOVE_HOR(U_MOUSE_MOVE_MAX)
+
 &mt {
     flavor = "balanced";
     tapping-term-ms = <280>;
@@ -52,7 +63,7 @@
                                  &kp A                                                      &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp SCRL_LEFT SCRL_RIGHT &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN &inc_dec_kp PG_UP PG_DN>;
         };
 
         num_layer {
@@ -112,6 +123,7 @@
         };
     };
 };
+
 
 
 
