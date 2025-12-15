@@ -1,7 +1,7 @@
 // #include <layout_shift.dtsi>
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 130  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 3    // default: 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 50  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 1    // default: 10
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -112,5 +112,6 @@
         };
     };
 };
+
 
 
