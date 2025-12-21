@@ -104,3 +104,12 @@
         prechargep = <0x22>;
     };
 };
+
+/ {
+    mouse {
+        compatible = "zmk,mouse";
+
+        cursor-speed = <550>;   /* カーソル移動速度 */
+        scroll-speed = <1>;    /* スクロール速度（必要に応じて） */
+    };
+};
