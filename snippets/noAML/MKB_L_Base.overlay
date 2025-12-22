@@ -11,7 +11,7 @@
             input-processors = 
                 <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>
 //                , <&zip_xy_scaler 1 16>
-                , <&zip_xy_scaler 1 64>     // スクロール感度落とす
+                , <&zip_xy_scaler 1 48>     // スクロール感度落とす
                 , <&zip_xy_to_scroll_mapper>;
         };
 
@@ -70,5 +70,6 @@
     };
 
 };
+
 
 
