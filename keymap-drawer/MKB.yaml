@@ -43,7 +43,7 @@ layers:
   - {t: F10, h: Num}
   - {t: SPACE, h: Mouse}
   - {t: ENTER, h: Fnc}
-  - BS
+  - BSPC
   - LEFT
   - DOWN
   - RIGHT
