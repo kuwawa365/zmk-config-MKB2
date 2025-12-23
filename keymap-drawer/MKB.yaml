@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - MINUS
   - {t: TAB, h: BT}
   - A
   - S
@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - {t: SEMI, h: Mouse}
-  - ENTER
+  - SEMI
+  - {t: SQT, h: Mouse}
   - LSHFT
   - Z
   - X
@@ -40,10 +40,10 @@ layers:
   - LCTL
   - LGUI
   - LALT
-  - {t: SPACE, h: Num}
+  - {t: F10, h: Num}
   - {t: SPACE, h: Mouse}
-  - {t: ENTER, h: Num}
-  - {t: F10, h: Fnc}
+  - {t: ENTER, h: Fnc}
+  - BS
   - LEFT
   - DOWN
   - RIGHT
@@ -101,8 +101,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -200,8 +200,8 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
+  - Scr
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -212,7 +212,7 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: ▽, type: trans}
-  - Scr
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -259,8 +259,8 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
