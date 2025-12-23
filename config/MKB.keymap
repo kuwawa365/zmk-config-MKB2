@@ -28,12 +28,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp ESC     &kp Q      &kp W      &kp E      &kp R        &kp T                &kp Y          &kp U          &kp I      &kp O      &kp P           &kp BSPC
-&lt BT TAB &kp A      &kp S      &kp D      &kp F        &kp G                &kp H          &kp J          &kp K      &kp L      &lt MOUSE SEMI  &kp ENTER
-&kp LSHFT   &kp Z      &kp X      &kp C      &kp V        &kp B                &kp N          &kp M          &kp COMMA  &kp DOT    &kp UP          &mt RSHIFT FSLH
-&kp LCTL    &kp LGUI   &kp LALT              &lt NUM SPACE &lt MOUSE SPACE      &lt NUM ENTER  &lt FUNC F10              &kp LEFT   &kp DOWN        &kp RIGHT
-&kp LEFT    &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                                        &kp HOME       &kp PG_UP  &kp ENTER  &kp PG_DN       &kp END
-                                  &kp A                                                                      &kp B
+&kp ESC     &kp Q      &kp W      &kp E      &kp R        &kp T               &kp Y          &kp U      &kp I      &kp O      &kp P      &kp MINUS
+&lt BT TAB  &kp A      &kp S      &kp D      &kp F        &kp G               &kp H          &kp J      &kp K      &kp L      &kp SEMI   &lt MOUSE SQT
+&kp LSHFT   &kp Z      &kp X      &kp C      &kp V        &kp B               &kp N          &kp M      &kp COMMA  &kp DOT    &kp UP     &mt RSHIFT FSLH
+&kp LCTL    &kp LGUI   &kp LALT              &lt NUM F10 &lt MOUSE SPACE      &lt FUNC ENTER &kp BS                &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT    &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                                       &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                  &kp A                                                                 &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp UP DOWN>;
@@ -71,8 +71,8 @@
             label = "Mouse";
             bindings = <
 &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6       &kp F7     &kp F8     &kp F9     &kp F10    &kp F11    &kp F12
-&trans     &trans     &trans     &trans     &mo SCROLL &trans       &trans     &mkp MB1   &mkp MB3   &mkp MB2   &trans     &trans
-&trans     &trans     &trans     &trans     &trans     &trans       &trans     &mkp MB4   &mkp MB5   &trans     &mo SCROLL &trans
+&trans     &trans     &trans     &trans     &mo SCROLL &trans       &trans     &mkp MB1   &mkp MB3   &mkp MB2   &mo SCROLL &trans
+&trans     &trans     &trans     &trans     &trans     &trans       &trans     &mkp MB4   &mkp MB5   &trans     &trans     &trans
 &trans     &trans     &trans                &trans     &trans       &kp LANG2  &kp LANG1             &trans     &trans     &trans
 &kp LEFT   &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                          &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                              &kp A                                                   &kp B
