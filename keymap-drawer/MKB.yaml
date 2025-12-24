@@ -390,7 +390,7 @@ layers:
   - '3'
   - COMMA
   - DOT
-  - '&FSLH'
+  - FSLH
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
