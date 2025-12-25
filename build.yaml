@@ -74,10 +74,10 @@ include:
 #    snippet: noAML zmk-usb-logging studio-rpc-usb-uart
 #    artifact-name: MKB_L_MODULE_TB_noAML
 #
-  - board: seeeduino_xiao_ble
-    shield: MKB_L_Base MKB_L_JOY rgbled_adapter nice_oled
-    snippet: noAML zmk-usb-logging studio-rpc-usb-uart
-    artifact-name: MKB_L_MODULE_JOY_noAML
+#  - board: seeeduino_xiao_ble
+#    shield: MKB_L_Base MKB_L_JOY rgbled_adapter nice_oled
+#    snippet: noAML zmk-usb-logging studio-rpc-usb-uart
+#    artifact-name: MKB_L_MODULE_JOY_noAML
 
   - board: seeeduino_xiao_ble
     shield: MKB_L_Base MKB_L_ENC rgbled_adapter nice_oled
@@ -102,5 +102,6 @@ include:
 # Settings Reset
   - board: seeeduino_xiao_ble
     shield: settings_reset
+
 
 
