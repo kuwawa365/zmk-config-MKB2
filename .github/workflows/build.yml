@@ -52,10 +52,8 @@ jobs:
         with:
           file_pattern: 'firmware/**/*'
           commit_message: 'Update firmware files for branch ${{ steps.branch-name.outputs.branch }}'
-          #commit_options: '--no-verify'
-          #push_options: '--no-verify'
-          commit_options: '--no-verify --force-with-lease'
-          push_options: '--no-verify --force-with-lease'
+          commit_options: '--no-verify'
+          push_options: '--no-verify'
           
       - name: Artifact upload
         id: artifact-upload-step
@@ -64,6 +62,7 @@ jobs:
         with:
           name: '${{ inputs.artifact_name }}'
           path: 'firmware/${{ steps.branch-name.outputs.branch }}/*'
+
 
 
 
