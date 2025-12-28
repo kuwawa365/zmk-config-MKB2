@@ -229,10 +229,10 @@ layers:
   - SPACE
   - DOWN
   - RIGHT
-  - HOME
+  - Sft+TAB
   - PG UP
   - ENTER
-  - PG DN
+  - TAB
   - END
   - A
   - B
@@ -413,3 +413,6 @@ layers:
   - END
   - A
   - B
+combos:
+- p: [36, 37]
+  k: NumPad

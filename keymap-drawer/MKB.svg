@@ -387,6 +387,11 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
+<a href="#NumPad">
+<text x="56" y="196" class="combo tap layer-activator">NumPad</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 322)" class="layer-Fnc">
@@ -627,6 +632,11 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
+<a href="#NumPad">
+<text x="56" y="196" class="combo tap layer-activator">NumPad</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 644)" class="layer-Num">
@@ -868,6 +878,11 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
+<a href="#NumPad">
+<text x="56" y="196" class="combo tap layer-activator">NumPad</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 966)" class="layer-Mouse">
@@ -1090,7 +1105,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(504, 224)" class="key keypos-51">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
-<text x="0" y="0" class="key tap">HOME</text>
+<text x="0" y="0" class="key tap">Sft+TAB</text>
 </g>
 <g transform="translate(532, 196)" class="key keypos-52">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -1104,9 +1119,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(532, 252)" class="key keypos-54">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PG</tspan><tspan x="0" dy="1.2em">DN</tspan>
-</text>
+<text x="0" y="0" class="key tap">TAB</text>
 </g>
 <g transform="translate(560, 224)" class="key keypos-55">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -1120,6 +1133,11 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
+<a href="#NumPad">
+<text x="56" y="196" class="combo tap layer-activator">NumPad</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1288)" class="layer-Scr">
@@ -1377,6 +1395,11 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
+<a href="#NumPad">
+<text x="56" y="196" class="combo tap layer-activator">NumPad</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1610)" class="layer-BT">
@@ -1631,6 +1654,11 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
+<a href="#NumPad">
+<text x="56" y="196" class="combo tap layer-activator">NumPad</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1932)" class="layer-NumPad">
@@ -1871,6 +1899,11 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
+<a href="#NumPad">
+<text x="56" y="196" class="combo tap layer-activator">NumPad</text>
+</a></g>
 </g>
 </g>
 <text x="982.0" y="2282.0" class="footer">MeKaBu KEYMAPS | Created with keymap-drawer</text></svg>
