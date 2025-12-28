@@ -131,12 +131,12 @@
         numpad_layer {
             label = "NumPad";
             bindings = <
-&trans    &trans  &trans     &trans    &trans     &trans      &kp COMMA  &kp N7    &kp N8     &kp N9     &kp MINUS  &kp EQUAL
-&trans    &trans  &trans     &trans    &trans     &trans      &kp DOT    &kp N4    &kp N5     &kp N6     &kp COLON  &kp TILDE
-&trans    &trans  &trans     &trans    &trans     &trans      &kp N0     &kp N1    &kp N2     &kp N3     &trans     &kp FSLH
-&trans    &trans  &trans               &trans     &trans      &trans     &trans               &trans     &trans     &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                         &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                             &kp A                                                 &kp B
+&trans    &trans  &trans     &trans    &trans     &trans           &kp COMMA  &kp N7    &kp N8     &kp N9     &kp MINUS  &kp EQUAL
+&trans    &trans  &trans     &trans    &trans     &macro_test      &kp DOT    &kp N4    &kp N5     &kp N6     &kp COLON  &kp TILDE
+&trans    &trans  &trans     &trans    &trans     &trans           &kp N0     &kp N1    &kp N2     &kp N3     &trans     &kp FSLH
+&trans    &trans  &trans               &trans     &trans           &trans     &trans               &trans     &trans     &trans
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                              &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                             &kp A                                                      &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp LEFT RIGHT>;
