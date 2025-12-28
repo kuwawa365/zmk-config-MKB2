@@ -27,8 +27,8 @@
         compatible = "zmk,combos";
 
         combo_numpad {
-            bindings = <&mo 6>;
-            key-positions = <36 37>;
+            bindings = <&mo NUMPAD>;
+            key-positions = <36 37>;  // LCTL+LGUI
         };
     };
 
