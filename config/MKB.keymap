@@ -20,12 +20,13 @@
 
     //tapping-term-ms = <200>;
 
-    quick-tap-ms = <200>;
+    quick-tap-ms = <300>;
 
     //require-prior-idle-ms = <100>;
 
     hold-while-undecided;
     hold-while-undecided-linger;
+    tapping-term-ms = <100>;
 };
 
 / {
