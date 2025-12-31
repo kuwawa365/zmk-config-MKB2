@@ -33,7 +33,7 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_numpad {
+        combo_leftctl {
             bindings = <&mo NUMPAD>;
             key-positions = <36 37>;  // LCTL+LGUI
         };
