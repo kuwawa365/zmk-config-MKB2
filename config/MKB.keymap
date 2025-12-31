@@ -38,15 +38,15 @@
             key-positions = <0 1>;
         };
 
-        combo_leftmid {
-            bindings = <&kp GRAVE>;
-            key-positions = <12 13>;
-        };
+//        combo_leftmid {
+//            bindings = <&kp GRAVE>;
+//            key-positions = <12 13>;
+//        };
 
-        combo_leftbot {
-            bindings = <&kp GRAVE>;
-            key-positions = <24 25>;
-        };
+//        combo_leftbot {
+//            bindings = <&kp GRAVE>;
+//            key-positions = <24 25>;
+//        };
 
         combo_leftctl {
             bindings = <&mo NUMPAD>;
@@ -63,25 +63,25 @@
             key-positions = <22 23>;
         };
 
-        combo_rightbot {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <34 35>;
-        };
+//        combo_rightbot {
+//            bindings = <&kp BACKSLASH>;
+//            key-positions = <34 35>;
+//        };
 
-        combo_rightctl {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <44 45>;
-        };
+//        combo_rightctl {
+//            bindings = <&kp BACKSLASH>;
+//            key-positions = <44 45>;
+//        };
     };
 
-    macros {
-        macro_test: macro_test {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp E &kp S &kp T &kp M &kp A &kp C &kp R &kp O &kp EXCL>;
-            label = "MACRO_TEST";
-        };
-    };
+//    macros {
+//        macro_test: macro_test {
+//            compatible = "zmk,behavior-macro";
+//            #binding-cells = <0>;
+//            bindings = <&kp T &kp E &kp S &kp T &kp M &kp A &kp C &kp R &kp O &kp EXCL>;
+//            label = "MACRO_TEST";
+//        };
+//    };
 
     keymap {
         compatible = "zmk,keymap";
