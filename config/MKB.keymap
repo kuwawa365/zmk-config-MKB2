@@ -17,10 +17,14 @@
 
 &mt {
     flavor = "hold-preferred";
+
     //tapping-term-ms = <200>;
+
     tapping-term-ms = <100>;
     quick-tap-ms = <300>;
+
     //require-prior-idle-ms = <100>;
+
     hold-while-undecided;
     hold-while-undecided-linger;
 };
@@ -32,6 +36,7 @@
         combo_lefttop {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
+
             //layers = <1>;
         };
 
@@ -43,7 +48,6 @@
         //            bindings = <&kp GRAVE>;
         //            key-positions = <24 25>;
         //        };
-
         //combo_leftctl {
         //    bindings = <&mo NUMPAD>;
         //    key-positions = <36 37>;  // LCTL+LGUI
@@ -67,12 +71,6 @@
         //            bindings = <&kp BACKSLASH>;
         //            key-positions = <44 45>;
         //        };
-
-        combo_rightdel {
-            bindings = <&kp DEL>;
-            key-positions = <42 45>;
-        };
-
     };
 
     //    macros {
@@ -104,11 +102,11 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&trans    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5      &kp F8    &kp F9    &kp F10   &kp F11   &kp F12   &trans
-&trans    &trans    &trans    &trans    &trans    &kp F6      &kp F7    &trans    &trans    &trans    &trans    &trans
-&trans    &trans    &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
-&trans    &trans    &trans              &trans    &trans      &trans    &trans              &trans    &trans    &trans
-&kp LEFT  &kp UP    &kp SPACE &kp DOWN  &kp RIGHT                       &kp HOME  &kp PG_UP &kp ENTER &kp PG_DN &kp END
+&trans    &kp F1  &kp F2     &kp F3    &kp F4     &kp F5      &kp F8  &kp F9    &kp F10    &kp F11    &kp F12    &trans
+&trans    &trans  &trans     &trans    &trans     &kp F6      &kp F7  &trans    &trans     &trans     &trans     &trans
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
+&trans    &trans  &trans               &trans     &trans      &trans  &trans               &trans     &trans     &trans
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                              &kp A                                              &kp B
             >;
 
@@ -118,12 +116,12 @@
         num_layer {
             label = "Num";
             bindings = <
-&trans    &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp N5      &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &trans
-&trans    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5      &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
-&trans    &trans     &trans     &trans     &trans     &trans      &kp LBKT   &kp RBKT   &trans     &trans     &trans     &mt RSHIFT BSLH
-&trans    &trans     &trans                &trans     &trans      &trans     &trans                &trans     &trans     &trans
-&kp LEFT  &kp UP     &kp SPACE  &kp DOWN  &kp RIGHT                        &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                &kp A                                                &kp B
+&trans    &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp N5      &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans
+&trans    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &trans
+&trans    &trans      &trans      &trans      &trans      &trans      &kp LBKT    &kp RBKT    &trans      &trans      &trans      &mt RSHIFT BSLH
+&trans    &trans      &trans                  &trans      &trans      &trans      &trans                  &trans      &trans      &trans
+&kp LEFT  &kp UP      &kp SPACE   &kp DOWN    &kp RIGHT                           &kp HOME    &kp PG_UP   &kp ENTER   &kp PG_DN   &kp END
+                                  &kp A                                                       &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp UP DOWN>;
@@ -132,11 +130,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans    &kp F1     &kp F2     &kp F3    &kp F4      &kp F5      &kp F8    &kp F9       &kp F10    &kp F11    &kp F12     &trans
-&trans    &trans     &trans     &trans    &mo SCROLL  &kp F6      &kp F7    &mkp MB1     &mkp MB3   &mkp MB2   &mo SCROLL  &trans
-&trans    &LC(Z)     &LC(X)     &LC(C)    &LC(V)      &LC(Y)      &trans    &mkp MB4     &mkp MB5   &trans     &trans      &trans
-&trans    &kp PSCRN  &trans               &trans      &trans      &trans    &trans                  &trans     &trans      &trans
-&kp LEFT  &kp UP     &kp SPACE  &kp DOWN  &kp RIGHT                         &kp LS(TAB)  &kp PG_UP  &kp ENTER  &kp TAB     &kp END
+&trans    &kp F1     &kp F2     &kp F3    &kp F4      &kp F5      &kp F8  &kp F9       &kp F10    &kp F11    &kp F12     &trans
+&trans    &trans     &trans     &trans    &mo SCROLL  &kp F6      &kp F7  &mkp MB1     &mkp MB3   &mkp MB2   &mo SCROLL  &trans
+&trans    &kp LC(Z)  &trans     &trans    &trans      &trans      &trans  &mkp MB4     &mkp MB5   &trans     &trans      &trans
+&trans    &kp PSCRN  &trans               &trans      &trans      &trans  &trans                  &trans     &trans      &trans
+&kp LEFT  &kp UP     &kp SPACE  &kp DOWN  &kp RIGHT                       &kp LS(TAB)  &kp PG_UP  &kp ENTER  &kp TAB     &kp END
                                 &kp A                                                  &kp B
             >;
 
@@ -174,11 +172,11 @@
         numpad_layer {
             label = "NumPad";
             bindings = <
-&trans    &trans  &trans     &trans    &trans     &trans      &kp COMMA  &kp N7    &kp N8     &kp N9     &kp EQUAL    &trans  
-&trans    &trans  &trans     &trans    &trans     &trans      &kp DOT    &kp N4    &kp N5     &kp N6     &kp LS(SEMI) &kp TILDE
-&trans    &trans  &trans     &trans    &trans     &trans      &kp N0     &kp N1    &kp N2     &kp N3     &trans       &kp FSLH
-&trans    &trans  &trans               &trans     &trans      &trans     &trans               &trans     &trans       &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                         &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN    &kp END
+&trans    &trans  &trans     &trans    &trans     &trans      &kp COMMA  &kp N7    &kp N8     &kp N9     &kp EQUAL     &trans
+&trans    &trans  &trans     &trans    &trans     &trans      &kp DOT    &kp N4    &kp N5     &kp N6     &kp LS(SEMI)  &kp TILDE
+&trans    &trans  &trans     &trans    &trans     &trans      &kp N0     &kp N1    &kp N2     &kp N3     &trans        &kp FSLH
+&trans    &trans  &trans               &trans     &trans      &trans     &trans               &trans     &trans        &trans
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                         &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN     &kp END
                              &kp A                                                 &kp B
             >;
 
