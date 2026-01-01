@@ -130,7 +130,7 @@ layers:
   - Sft+8
   - Sft+9
   - Sft+0
-  - MINUS
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -203,11 +203,11 @@ layers:
   - Scr
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&LC(Z)'
+  - '&LC(X)'
+  - '&LC(C)'
+  - '&LC(V)'
+  - '&LC(Y)'
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
