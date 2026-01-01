@@ -60,13 +60,12 @@ layers:
   - A
   - B
   Fnc:
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - F6
-  - F7
   - F8
   - F9
   - F10
@@ -78,7 +77,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F6
+  - F7
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,6 +119,19 @@ layers:
   - A
   - B
   Num:
+  - {t: ▽, type: trans}
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - '5'
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
+  - MINUS
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -129,20 +142,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - MINUS
-  - EQUAL
   - {t: ▽, type: trans}
-  - GRAVE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SQT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,13 +178,12 @@ layers:
   - A
   - B
   Mouse:
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - F6
-  - F7
   - F8
   - F9
   - F10
@@ -194,9 +193,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Scr
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F6
+  - F7
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
@@ -307,7 +307,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -365,19 +365,19 @@ layers:
   - '7'
   - '8'
   - '9'
-  - MINUS
   - EQUAL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&macro_test'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - DOT
   - '4'
   - '5'
   - '6'
-  - COLON
+  - Sft+SEMI
   - TILDE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -416,9 +416,9 @@ layers:
 combos:
 - p: [0, 1]
   k: GRAVE
-- p: [36, 37]
-  k: NumPad
 - p: [10, 11]
   k: EQUAL
 - p: [22, 23]
   k: BACKSLASH
+- p: [42, 45]
+  k: DEL
