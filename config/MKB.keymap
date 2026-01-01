@@ -17,16 +17,12 @@
 
 &mt {
     flavor = "hold-preferred";
-
     //tapping-term-ms = <200>;
-
+    tapping-term-ms = <100>;
     quick-tap-ms = <300>;
-
     //require-prior-idle-ms = <100>;
-
     hold-while-undecided;
     hold-while-undecided-linger;
-    tapping-term-ms = <100>;
 };
 
 / {
@@ -36,7 +32,7 @@
         combo_lefttop {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
-            layers = <1>;
+            //layers = <1>;
         };
 
         //        combo_leftmid {
@@ -48,10 +44,10 @@
         //            key-positions = <24 25>;
         //        };
 
-        combo_leftctl {
-            bindings = <&mo NUMPAD>;
-            key-positions = <36 37>;  // LCTL+LGUI
-        };
+        //combo_leftctl {
+        //    bindings = <&mo NUMPAD>;
+        //    key-positions = <36 37>;  // LCTL+LGUI
+        //};
 
         combo_righttop {
             bindings = <&kp EQUAL>;
@@ -102,11 +98,11 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp F1    &kp F2  &kp F3     &kp F4    &kp F5     &kp F6      &kp F7  &kp F8    &kp F9     &kp F10    &kp F11    &kp F12
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans  &trans               &trans     &trans      &trans  &trans               &trans     &trans     &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+&trans    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5      &kp F8    &kp F9    &kp F10   &kp F11   &kp F12   &trans
+&trans    &trans    &trans    &trans    &trans    &kp F6      &kp F7    &trans    &trans    &trans    &trans    &trans
+&trans    &trans    &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
+&trans    &trans    &trans              &trans    &trans      &trans    &trans              &trans    &trans    &trans
+&kp LEFT  &kp UP    &kp SPACE &kp DOWN  &kp RIGHT                       &kp HOME  &kp PG_UP &kp ENTER &kp PG_DN &kp END
                              &kp A                                              &kp B
             >;
 
@@ -116,10 +112,10 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp N1    &kp N2     &kp N3     &kp N4    &kp N5     &kp N6      &kp N7    &kp N8    &kp N9     &kp N0     &kp MINUS  &kp EQUAL
-&trans    &kp GRAVE  &trans     &trans    &trans     &trans      &trans    &trans    &trans     &trans     &trans     &kp SQT
-&trans    &trans     &trans     &trans    &trans     &trans      &kp LBKT  &kp RBKT  &trans     &trans     &trans     &mt RSHIFT BSLH
-&trans    &trans     &trans               &trans     &trans      &trans    &trans               &trans     &trans     &trans
+&trans    &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp N5      &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp MINUS
+&trans    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5      &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
+&trans    &trans     &trans     &trans     &trans     &trans      &kp LBKT   &kp RBKT   &trans     &trans     &trans     &mt RSHIFT BSLH
+&trans    &trans     &trans                &trans     &trans      &trans     &trans                &trans     &trans     &trans
 &kp LEFT  &kp UP     &kp SPACE  &kp DOWN  &kp RIGHT                        &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                &kp B
             >;
@@ -130,11 +126,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&kp F1    &kp F2     &kp F3     &kp F4    &kp F5      &kp F6      &kp F7  &kp F8       &kp F9     &kp F10    &kp F11     &kp F12
-&trans    &trans     &trans     &trans    &mo SCROLL  &trans      &trans  &mkp MB1     &mkp MB3   &mkp MB2   &mo SCROLL  &trans
-&trans    &trans     &trans     &trans    &trans      &trans      &trans  &mkp MB4     &mkp MB5   &trans     &trans      &trans
-&trans    &kp PSCRN  &trans               &trans      &trans      &trans  &trans                  &trans     &trans      &trans
-&kp LEFT  &kp UP     &kp SPACE  &kp DOWN  &kp RIGHT                       &kp LS(TAB)  &kp PG_UP  &kp ENTER  &kp TAB     &kp END
+&trans    &kp F1     &kp F2     &kp F3    &kp F4      &kp F5      &kp F8    &kp F9       &kp F10    &kp F11    &kp F12     &trans
+&trans    &trans     &trans     &trans    &mo SCROLL  &kp F6      &kp F7    &mkp MB1     &mkp MB3   &mkp MB2   &mo SCROLL  &trans
+&trans    &trans     &trans     &trans    &trans      &trans      &trans    &mkp MB4     &mkp MB5   &trans     &trans      &trans
+&trans    &kp PSCRN  &trans               &trans      &trans      &trans    &trans                  &trans     &trans      &trans
+&kp LEFT  &kp UP     &kp SPACE  &kp DOWN  &kp RIGHT                         &kp LS(TAB)  &kp PG_UP  &kp ENTER  &kp TAB     &kp END
                                 &kp A                                                  &kp B
             >;
 
@@ -172,11 +168,11 @@
         numpad_layer {
             label = "NumPad";
             bindings = <
-&trans    &trans  &trans     &trans    &trans     &trans      &kp COMMA  &kp N7    &kp N8     &kp N9     &kp MINUS  &kp EQUAL
-&trans    &trans  &trans     &trans    &trans     &trans      &kp DOT    &kp N4    &kp N5     &kp N6     &kp COLON  &kp TILDE
-&trans    &trans  &trans     &trans    &trans     &trans      &kp N0     &kp N1    &kp N2     &kp N3     &trans     &kp FSLH
-&trans    &trans  &trans               &trans     &trans      &trans     &trans               &trans     &trans     &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                         &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+&trans    &trans  &trans     &trans    &trans     &trans      &kp COMMA  &kp N7    &kp N8     &kp N9     &kp EQUAL    &trans  
+&trans    &trans  &trans     &trans    &trans     &trans      &kp DOT    &kp N4    &kp N5     &kp N6     &kp LS(SEMI) &kp TILDE
+&trans    &trans  &trans     &trans    &trans     &trans      &kp N0     &kp N1    &kp N2     &kp N3     &trans       &kp FSLH
+&trans    &trans  &trans               &trans     &trans      &trans     &trans               &trans     &trans       &trans
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                         &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN    &kp END
                              &kp A                                                 &kp B
             >;
 
