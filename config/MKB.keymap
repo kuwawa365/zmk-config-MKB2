@@ -36,17 +36,17 @@
         combo_lefttop {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
+            layers = <1>;
         };
 
-//        combo_leftmid {
-//            bindings = <&kp GRAVE>;
-//            key-positions = <12 13>;
-//        };
-
-//        combo_leftbot {
-//            bindings = <&kp GRAVE>;
-//            key-positions = <24 25>;
-//        };
+        //        combo_leftmid {
+        //            bindings = <&kp GRAVE>;
+        //            key-positions = <12 13>;
+        //        };
+        //        combo_leftbot {
+        //            bindings = <&kp GRAVE>;
+        //            key-positions = <24 25>;
+        //        };
 
         combo_leftctl {
             bindings = <&mo NUMPAD>;
@@ -63,25 +63,24 @@
             key-positions = <22 23>;
         };
 
-//        combo_rightbot {
-//            bindings = <&kp BACKSLASH>;
-//            key-positions = <34 35>;
-//        };
-
-//        combo_rightctl {
-//            bindings = <&kp BACKSLASH>;
-//            key-positions = <44 45>;
-//        };
+        //        combo_rightbot {
+        //            bindings = <&kp BACKSLASH>;
+        //            key-positions = <34 35>;
+        //        };
+        //        combo_rightctl {
+        //            bindings = <&kp BACKSLASH>;
+        //            key-positions = <44 45>;
+        //        };
     };
 
-//    macros {
-//        macro_test: macro_test {
-//            compatible = "zmk,behavior-macro";
-//            #binding-cells = <0>;
-//            bindings = <&kp T &kp E &kp S &kp T &kp M &kp A &kp C &kp R &kp O &kp EXCL>;
-//            label = "MACRO_TEST";
-//        };
-//    };
+    //    macros {
+    //        macro_test: macro_test {
+    //            compatible = "zmk,behavior-macro";
+    //            #binding-cells = <0>;
+    //            bindings = <&kp T &kp E &kp S &kp T &kp M &kp A &kp C &kp R &kp O &kp EXCL>;
+    //            label = "MACRO_TEST";
+    //        };
+    //    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -173,12 +172,12 @@
         numpad_layer {
             label = "NumPad";
             bindings = <
-&trans    &trans  &trans     &trans    &trans     &trans           &kp COMMA  &kp N7    &kp N8     &kp N9     &kp MINUS  &kp EQUAL
-&trans    &trans  &trans     &trans    &trans     &trans           &kp DOT    &kp N4    &kp N5     &kp N6     &kp COLON  &kp TILDE
-&trans    &trans  &trans     &trans    &trans     &trans           &kp N0     &kp N1    &kp N2     &kp N3     &trans     &kp FSLH
-&trans    &trans  &trans               &trans     &trans           &trans     &trans               &trans     &trans     &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                              &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                             &kp A                                                      &kp B
+&trans    &trans  &trans     &trans    &trans     &trans      &kp COMMA  &kp N7    &kp N8     &kp N9     &kp MINUS  &kp EQUAL
+&trans    &trans  &trans     &trans    &trans     &trans      &kp DOT    &kp N4    &kp N5     &kp N6     &kp COLON  &kp TILDE
+&trans    &trans  &trans     &trans    &trans     &trans      &kp N0     &kp N1    &kp N2     &kp N3     &trans     &kp FSLH
+&trans    &trans  &trans               &trans     &trans      &trans     &trans               &trans     &trans     &trans
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                         &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                             &kp A                                                 &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp LEFT RIGHT>;
