@@ -203,11 +203,11 @@ layers:
   - Scr
   - {type: held}
   - {t: ▽, type: trans}
-  - '&LC(Z)'
-  - '&LC(X)'
-  - '&LC(C)'
-  - '&LC(V)'
-  - '&LC(Y)'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
@@ -420,5 +420,3 @@ combos:
   k: EQUAL
 - p: [22, 23]
   k: BACKSLASH
-- p: [42, 45]
-  k: DEL
