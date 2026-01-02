@@ -133,7 +133,7 @@
             bindings = <
 &trans    &kp F1     &kp F2     &kp F3    &kp F4      &kp F5      &kp F8  &kp F9       &kp F10    &kp F11    &kp F12     &trans
 &trans    &trans     &trans     &trans    &mo SCROLL  &kp F6      &kp F7  &mkp MB1     &mkp MB3   &mkp MB2   &mo SCROLL  &trans
-&trans    &trans     &trans     &kp RCTL(KC_C)    &trans      &trans      &trans  &mkp MB4     &mkp MB5   &trans     &trans      &trans
+&trans    &trans     &trans     &kp LC(C)    &trans      &trans      &trans  &mkp MB4     &mkp MB5   &trans     &trans      &trans
 &trans    &kp PSCRN  &trans               &trans      &trans      &trans  &trans                  &trans     &trans      &trans
 &kp LEFT  &kp UP     &kp SPACE  &kp DOWN  &kp RIGHT                       &kp LS(TAB)  &kp PG_UP  &kp ENTER  &kp TAB     &kp END
                                 &kp A                                                  &kp B
