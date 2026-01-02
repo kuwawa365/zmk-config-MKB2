@@ -124,7 +124,7 @@ layers:
   - Sft+2
   - Sft+3
   - Sft+4
-  - '5'
+  - Sft+5
   - Sft+6
   - Sft+7
   - Sft+8
@@ -205,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTL(C)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
