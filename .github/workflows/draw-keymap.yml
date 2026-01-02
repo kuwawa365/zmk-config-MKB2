@@ -1,10 +1,10 @@
 name: Draw ZMK keymaps
 on:
   workflow_dispatch:
-#  push:
-#    paths:
-#      - "config/*"
-#      - "keymap-drawer/config.yaml"
+  push:
+    paths:
+      - "config/*"
+      - "keymap-drawer/config.yaml"
 
 jobs:
   draw:
@@ -23,3 +23,4 @@ jobs:
       parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
 
       draw_args: "MKB:'-j config/MKB.json'"
+
