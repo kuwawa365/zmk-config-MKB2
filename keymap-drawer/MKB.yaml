@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - {t: ESC, h: NumPad}
+  - ESC
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - MINUS
+  - BSPC
   - {t: TAB, h: BT}
   - A
   - S
@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - SEMI
-  - {t: SQT, h: Mouse}
+  - MINUS
+  - {t: ENTER, h: Mouse}
   - LSHFT
   - Z
   - X
@@ -40,10 +40,10 @@ layers:
   - LCTL
   - LGUI
   - LALT
-  - {t: F10, h: Num}
+  - {t: LANG2, h: NumPad}
   - {t: SPACE, h: Mouse}
-  - {t: ENTER, h: Fnc}
-  - BSPC
+  - {t: F10, h: Fnc}
+  - {t: LANG1, h: Num}
   - LEFT
   - DOWN
   - RIGHT
@@ -71,7 +71,7 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -144,24 +144,24 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - GRAVE
+  - BSLH
+  - SQT
   - LBKT
   - RBKT
+  - EQUAL
+  - SEMI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BSLH, h: RSHIFT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,11 +203,11 @@ layers:
   - Scr
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LCTL(C)
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Y
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
@@ -336,8 +336,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANG2
-  - LANG1
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -355,7 +355,7 @@ layers:
   - A
   - B
   NumPad:
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -394,7 +394,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -413,10 +413,3 @@ layers:
   - END
   - A
   - B
-combos:
-- p: [0, 1]
-  k: GRAVE
-- p: [10, 11]
-  k: EQUAL
-- p: [22, 23]
-  k: BACKSLASH
