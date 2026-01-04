@@ -203,11 +203,11 @@ layers:
   - Scr
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LCTL(C)
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Y
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
@@ -338,7 +338,7 @@ layers:
   - {t: ▽, type: trans}
   - LANG2
   - LANG1
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
