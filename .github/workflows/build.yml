@@ -1,12 +1,12 @@
 name: Build ZMK firmware
 on: 
   workflow_dispatch:
-#    push:
-#      paths:
-#        - config/**
-#        - boards/**
-#        - snippets/**
-#        - build.yaml
+    push:
+      paths:
+        - config/**
+        - boards/**
+        - snippets/**
+        - build.yaml
  
 jobs:
   build:
@@ -62,6 +62,7 @@ jobs:
         with:
           name: '${{ inputs.artifact_name }}'
           path: 'firmware/${{ steps.branch-name.outputs.branch }}/*'
+
 
 
 
