@@ -28,6 +28,10 @@
 
 / {
     combos {
+        // key-positions ro1  0~ 5, 6~11
+        // key-positions ro1 12~17,18~23
+        // key-positions ro1 24~29,30~35
+        // key-positions ro1 36~38,39~40,41~42,43~45
         compatible = "zmk,combos";
 
         combo_lefttop {
