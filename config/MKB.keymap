@@ -108,7 +108,7 @@
 &trans    &trans     &trans     &trans     &mo SCROLL  &kp F6         &kp F7  &mkp MB1     &mkp MB3   &mkp MB2   &mo SCROLL  &trans
 &trans    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &kp LC(Y)      &trans  &mkp MB4     &mkp MB5   &trans     &trans      &trans
 &trans    &kp PSCRN  &trans                &trans      &trans         &trans  &trans                  &trans     &trans      &trans
-&kp LEFT  &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                          &kp LS(TAB)  &kp PG_UP  &kp ENTER  &kp TAB     &kp END
+&kp LEFT  &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                          &kp LS(TAB)  &kp TAB    &none      &kp TAB     &kp LS(TAB)
                                 &kp A                                                      &kp B
             >;
 
