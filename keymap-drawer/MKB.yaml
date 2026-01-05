@@ -230,10 +230,10 @@ layers:
   - DOWN
   - RIGHT
   - Sft+TAB
-  - PG UP
-  - ENTER
   - TAB
-  - END
+  - ''
+  - TAB
+  - Sft+TAB
   - A
   - B
   Scr:
