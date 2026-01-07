@@ -89,10 +89,10 @@
         default_layer {
             label = "Def";
             bindings = <
-&lt NUMPAD ESC  &kp Q     &kp W      &kp E     &kp R        &kp T                &kp Y           &kp U     &kp I      &kp O      &kp P      &kp MINUS
-&lt BT TAB      &kp A     &kp S      &kp D     &kp F        &kp G                &kp H           &kp J     &kp K      &kp L      &kp SEMI   &lt MOUSE SQT
-&kp LSHFT       &kp Z     &kp X      &kp C     &kp V        &kp B                &kp N           &kp M     &kp COMMA  &kp DOT    &kp UP     &mt RSHIFT FSLH
-&kp LCTL        &kp LGUI  &kp LALT             &lt NUM F10  &lt MOUSE SPACE      &lt FUNC ENTER  &kp BSPC             &kp LEFT   &kp DOWN   &kp RIGHT
+&lt NUMPAD ESC  &kp Q     &kp W      &kp E     &kp R           &kp T                &kp Y           &kp U     &kp I      &kp O      &kp P      &kp MINUS
+&lt BT TAB      &kp A     &kp S      &kp D     &kp F           &kp G                &kp H           &kp J     &kp K      &kp L      &kp SEMI   &lt MOUSE SQT
+&kp LSHFT       &kp Z     &kp X      &kp C     &kp V           &kp B                &kp N           &kp M     &kp COMMA  &kp DOT    &kp UP     &mt RSHIFT FSLH
+&kp LCTL        &kp LGUI  &kp LALT             &lt NUMPAD F10  &lt MOUSE SPACE      &lt FUNC ENTER  &lt NUMPAD BSPC      &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT        &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                         &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                      &kp A                                                                 &kp B
             >;
