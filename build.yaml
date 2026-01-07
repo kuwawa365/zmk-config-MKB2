@@ -99,9 +99,10 @@ include:
 #    snippet: noAML zmk-usb-logging studio-rpc-usb-uart
 #    artifact-name: MKB_L_MODULE_KEY_noAML
 
-## Settings Reset
-#  - board: seeeduino_xiao_ble
-#    shield: settings_reset
+# Settings Reset
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+
 
 
 
