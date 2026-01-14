@@ -27,7 +27,7 @@
             mv-mid = <1600>;
             mv-min-max = <1600>;
             //mv-deadzone = <88>;
-            mv-deadzone = <200>;
+            mv-deadzone = <200>;    // アナログスティックのデッドゾーン増やす
             scale-multiplier = <1>;
             scale-divisor = <800>;
             invert;
@@ -39,7 +39,7 @@
             mv-mid = <1600>;
             mv-min-max = <1600>;
             //mv-deadzone = <88>;
-            mv-deadzone = <200>;
+            mv-deadzone = <200>;    // アナログスティックのデッドゾーン増やす
             scale-multiplier = <1>;
             scale-divisor = <800>;
             invert;
@@ -64,4 +64,5 @@
     };
 
 };
+
 
