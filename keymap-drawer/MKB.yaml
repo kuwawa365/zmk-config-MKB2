@@ -108,12 +108,12 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - UP
-  - SPACE
+  - ''
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - ''
   - PG DN
   - END
   - A
@@ -167,12 +167,12 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - UP
-  - SPACE
+  - ''
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - ''
   - PG DN
   - END
   - A
@@ -226,12 +226,12 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - UP
-  - SPACE
+  - ''
   - DOWN
   - RIGHT
   - Sft+TAB
   - TAB
-  - ENTER
+  - ''
   - Sft+TAB
   - TAB
   - A
@@ -285,12 +285,12 @@ layers:
   - '&msc SCRL_RIGHT'
   - LEFT
   - UP
-  - SPACE
+  - ''
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - ''
   - PG DN
   - END
   - A
@@ -344,12 +344,12 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - UP
-  - SPACE
+  - ''
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - ''
   - PG DN
   - END
   - A
@@ -403,12 +403,12 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - UP
-  - SPACE
+  - ''
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - ''
   - PG DN
   - END
   - A
