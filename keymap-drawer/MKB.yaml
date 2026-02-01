@@ -40,21 +40,21 @@ layers:
   - LCTL
   - LGUI
   - LALT
-  - {t: F10, h: Num}
+  - {t: F10, h: NumPad}
   - {t: SPACE, h: Mouse}
   - {t: ENTER, h: Fnc}
-  - BSPC
+  - {t: BSPC, h: Num}
   - LEFT
   - DOWN
   - RIGHT
   - LEFT
   - UP
-  - SPACE
+  - ''
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - ''
   - PG DN
   - END
   - A
@@ -144,24 +144,24 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - GRAVE
+  - BSLH
+  - SQT
   - LBKT
   - RBKT
+  - EQUAL
+  - SEMI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BSLH, h: RSHIFT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -230,10 +230,10 @@ layers:
   - DOWN
   - RIGHT
   - Sft+TAB
-  - PG UP
-  - ENTER
   - TAB
-  - END
+  - ENTER
+  - Sft+TAB
+  - TAB
   - A
   - B
   Scr:
@@ -335,9 +335,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LANG2
   - LANG1
+  - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
