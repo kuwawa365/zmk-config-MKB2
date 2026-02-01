@@ -89,12 +89,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&lt NUMPAD ESC  &kp Q     &kp W      &kp E     &kp R           &kp T                &kp Y           &kp U     &kp I      &kp O      &kp P      &kp MINUS
-&lt BT TAB      &kp A     &kp S      &kp D     &kp F           &kp G                &kp H           &kp J     &kp K      &kp L      &kp SEMI   &lt MOUSE SQT
-&kp LSHFT       &kp Z     &kp X      &kp C     &kp V           &kp B                &kp N           &kp M     &kp COMMA  &kp DOT    &kp UP     &mt RSHIFT FSLH
-&kp LCTL        &kp LGUI  &kp LALT             &lt NUMPAD F10  &lt MOUSE SPACE      &lt FUNC ENTER  &lt NUM BSPC      &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT        &kp UP    &none      &kp DOWN  &kp RIGHT                                         &kp HOME  &kp PG_UP  &none  &kp PG_DN  &kp END
-                                     &kp A                                                                 &kp B
+&lt NUMPAD ESC  &kp Q     &kp W      &kp E     &kp R           &kp T                &kp Y           &kp U        &kp I      &kp O      &kp P      &kp MINUS
+&lt BT TAB      &kp A     &kp S      &kp D     &kp F           &kp G                &kp H           &kp J        &kp K      &kp L      &kp SEMI   &lt MOUSE SQT
+&kp LSHFT       &kp Z     &kp X      &kp C     &kp V           &kp B                &kp N           &kp M        &kp COMMA  &kp DOT    &kp UP     &mt RSHIFT FSLH
+&kp LCTL        &kp LGUI  &kp LALT             &lt NUMPAD F10  &lt MOUSE SPACE      &lt FUNC ENTER  &lt NUM BSPC            &kp LEFT   &kp DOWN   &kp RIGHT
+&kp HOME        &kp PG_UP  &none     &kp PG_DN  &kp END                                             &kp LS(TAB)  &kp TAB    &none      &kp LS(TAB) &kp TAB
+                                     &kp A                                                                       &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp UP DOWN>;
@@ -107,7 +107,7 @@
 &trans    &trans  &trans     &trans    &trans     &kp F6      &kp F7  &trans    &trans     &trans     &trans     &trans
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
 &trans    &trans  &trans               &trans     &trans      &trans  &trans               &trans     &trans     &trans
-&kp LEFT  &kp UP  &none      &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP  &none      &kp PG_DN  &kp END
+&trans    &trans  &trans     &trans    &trans                         &trans    &trans     &trans     &trans     &trans
                              &kp A                                              &kp B
             >;
 
@@ -121,7 +121,7 @@
 &trans    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &trans
 &trans    &kp GRAVE   &kp BSLH    &kp SQT     &kp LBKT    &kp RBKT        &kp EQUAL   &kp SEMI    &trans      &trans      &trans      &trans
 &trans    &trans      &trans                  &trans      &trans          &trans      &trans                  &trans      &trans      &trans
-&kp LEFT  &kp UP      &none       &kp DOWN    &kp RIGHT                               &kp HOME    &kp PG_UP   &none       &kp PG_DN   &kp END
+&trans    &trans      &trans      &trans      &trans                                  &trans      &trans      &trans      &trans      &trans
                                   &kp A                                                           &kp B
             >;
 
@@ -135,7 +135,7 @@
 &trans    &trans     &trans     &trans     &mo SCROLL  &kp F6         &kp F7  &mkp MB1     &mkp MB3   &mkp MB2   &mo SCROLL  &trans
 &trans    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &kp LC(Y)      &trans  &mkp MB4     &mkp MB5   &trans     &trans      &trans
 &trans    &kp PSCRN  &trans                &trans      &trans         &trans  &trans                  &trans     &trans      &trans
-&kp LEFT  &kp UP     &none      &kp DOWN   &kp RIGHT                          &kp LS(TAB)  &kp TAB    &none      &kp LS(TAB) &kp TAB
+&trans    &trans      &trans      &trans      &trans                                  &trans      &trans      &trans      &trans      &trans
                                 &kp A                                                      &kp B
             >;
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp LEFT RIGHT>;
@@ -148,7 +148,7 @@
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &mkp MB1  &mkp MB3   &mkp MB2        &trans          &trans
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &mkp MB4  &mkp MB5   &trans          &msc SCRL_UP    &trans
 &trans    &trans  &trans               &trans     &trans      &trans  &trans               &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
-&kp LEFT  &kp UP  &none      &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP  &none           &kp PG_DN       &kp END
+&trans    &trans      &trans      &trans      &trans                                  &trans      &trans      &trans      &trans      &trans
                              &kp A                                              &kp B
 
             >;
@@ -163,7 +163,7 @@
 &trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
 &trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
 &trans      &trans        &trans                      &kp LANG2     &kp LANG1         &trans          &kp DEL              &trans     &trans     &trans
-&kp LEFT    &kp UP        &none         &kp DOWN      &kp RIGHT                                       &kp HOME  &kp PG_UP  &none      &kp PG_DN  &kp END
+&trans    &trans      &trans      &trans      &trans                                  &trans      &trans      &trans      &trans      &trans
                                         &kp A                                                                   &kp B
             >;
 
@@ -177,7 +177,7 @@
 &trans    &trans  &trans     &trans    &trans     &trans      &kp DOT    &kp N4    &kp N5     &kp N6     &kp LS(SEMI)  &kp TILDE
 &trans    &trans  &trans     &trans    &trans     &trans      &kp N0     &kp N1    &kp N2     &kp N3     &trans        &kp FSLH
 &trans    &trans  &trans               &trans     &trans      &trans     &trans               &trans     &trans        &trans
-&kp LEFT  &kp UP  &none      &kp DOWN  &kp RIGHT                         &kp HOME  &kp PG_UP  &none      &kp PG_DN     &kp END
+&trans    &trans      &trans      &trans      &trans                                  &trans      &trans      &trans      &trans      &trans
                              &kp A                                                 &kp B
             >;
 
