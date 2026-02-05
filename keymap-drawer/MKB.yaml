@@ -47,16 +47,16 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - LEFT
-  - UP
-  - ''
-  - DOWN
-  - RIGHT
   - HOME
   - PG UP
   - ''
   - PG DN
   - END
+  - Sft+TAB
+  - TAB
+  - ''
+  - Sft+TAB
+  - TAB
   - A
   - B
   Fnc:
@@ -106,16 +106,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - ''
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ''
-  - PG DN
-  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - A
   - B
   Num:
@@ -165,16 +165,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - ''
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ''
-  - PG DN
-  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - A
   - B
   Mouse:
@@ -224,16 +224,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - ''
-  - DOWN
-  - RIGHT
-  - Sft+TAB
-  - TAB
-  - ''
-  - Sft+TAB
-  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - A
   - B
   Scr:
@@ -283,16 +283,16 @@ layers:
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_RIGHT'
-  - LEFT
-  - UP
-  - ''
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ''
-  - PG DN
-  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - A
   - B
   BT:
@@ -342,16 +342,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - ''
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ''
-  - PG DN
-  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - A
   - B
   NumPad:
@@ -401,16 +401,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - ''
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ''
-  - PG DN
-  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - A
   - B
 combos:
