@@ -40,9 +40,9 @@ layers:
   - LCTL
   - LGUI
   - LALT
-  - {t: F10, h: NumPad}
+  - {t: F10, h: Fnc}
   - {t: SPACE, h: Mouse}
-  - {t: ENTER, h: Fnc}
+  - ENTER
   - {t: BSPC, h: Num}
   - LEFT
   - DOWN
@@ -99,9 +99,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
