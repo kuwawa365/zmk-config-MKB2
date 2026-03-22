@@ -10,7 +10,7 @@ on:
  
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
 
   upload-firmware:
     needs: build
@@ -22,7 +22,10 @@ jobs:
         with:
           fetch-depth: ${{ (inputs.amend_commit == true && 2) || 1 }}
           submodules: recursive
-          
+
+      - name: Upgrade west
+        run: pip install --upgrade west
+      
       - name: Get branch name
         id: branch-name
         run: |
