@@ -1,7 +1,5 @@
 ---
 include:
-- name: Upgrade west
-  run: pip install --upgrade west
 ## Left Shields / Default - with AML
 #  - board: seeeduino_xiao_ble
 #    shield: MKB_L_Base MKB_L_TB rgbled_adapter nice_oled
