@@ -28,28 +28,38 @@
 
 / {
     combos {
-        // key-positions ro1  0~ 5, 6~11
-        // key-positions ro1 12~17,18~23
-        // key-positions ro1 24~29,30~35
-        // key-positions ro1 36~38,39~40,41~42,43~45
+        // key-positions row1  0~ 5, 6~11
+        // key-positions row2 12~17,18~23
+        // key-positions row3 24~29,30~35
+        // key-positions row4 36~38,39~40,41~42,43~45
         compatible = "zmk,combos";
 
-        combo_lefttop {
-            bindings = <&kp GRAVE>;
-            key-positions = <0 1>;
+        //combo_lefttop {
+        //    bindings = <&kp GRAVE>;
+        //    key-positions = <0 1>;
+        //
+        //    //layers = <1>;
+        //};
 
-            //layers = <1>;
+        combo_lefthome {
+            bindings = <&kp LANG2>;
+            key-positions = <15 16>;
         };
-    
+
+        combo_lefthome {
+            bindings = <&kp LANG1>;
+            key-positions = <19 20>;
+        };
+
         combo_righttop {
             bindings = <&kp EQUAL>;
             key-positions = <10 11>;
         };
 
-        combo_rightmid {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <22 23>;
-        };
+        //combo_rightmid {
+        //    bindings = <&kp BACKSLASH>;
+        //    key-positions = <22 23>;
+        //};
     };
 
     //    macros {
