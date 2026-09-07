@@ -12,9 +12,9 @@ on:
         required: false
         default: true
         type: boolean
-  schedule:
+  #schedule:
     # Daily build health check at 05:00 JST.
-    - cron: "0 20 * * *"
+  #  - cron: "0 20 * * *"
   push:
     paths:
       - "config/**"
