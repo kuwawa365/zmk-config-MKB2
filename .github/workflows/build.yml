@@ -18,8 +18,8 @@ on:
   push:
     paths:
       - "config/**"
-      - "boards/**"
-      - "snippets/**"
+#      - "boards/**"
+#      - "snippets/**"
 #      - "build.yaml"
 #      - "zephyr/module.yml"
 #      - ".github/workflows/build.yml"
