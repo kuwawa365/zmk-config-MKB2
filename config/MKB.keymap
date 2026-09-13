@@ -109,7 +109,7 @@
 &trans    &kp F1     &kp F2     &kp F3     &kp F4      &kp F5         &kp F8  &kp F9       &kp F10    &kp F11    &kp F12     &trans
 &trans    &trans     &trans     &trans     &mo SCROLL  &kp F6         &kp F7  &mkp MB1     &mkp MB3   &mkp MB2   &mo SCROLL  &trans
 &trans    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &kp LC(Y)      &trans  &mkp MB4     &mkp MB5   &trans     &trans      &trans
-&trans    &kp PSCRN  &trans                &trans      &trans         &trans  &trans                  &trans     &trans      &trans
+&trans    &kp PSCRN  &trans                &trans      &trans         &trans  &&kp DEL                &trans     &trans      &trans
 &trans    &trans      &trans      &trans      &trans                                  &trans      &trans      &trans      &trans      &trans
                                 &trans                                                     &trans
             >;
@@ -151,7 +151,7 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &trans     &trans     &trans
 &trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
 &trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
-&trans      &trans        &trans                      &kp LANG2     &kp LANG1         &trans          &kp DEL              &trans     &trans     &trans
+&trans      &trans        &trans                      &trans        &trans            &trans          &trans               &trans     &trans     &trans
 &trans    &trans      &trans      &trans      &trans                                  &trans      &trans      &trans      &trans      &trans
                                         &trans                                                                  &trans
             >;
