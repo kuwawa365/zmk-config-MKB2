@@ -20,7 +20,7 @@ on:
       - "config/**"
       - "boards/**"
       - "snippets/**"
-      - "build.yaml"
+#      - "build.yaml"
 #      - "zephyr/module.yml"
 #      - ".github/workflows/build.yml"
 
